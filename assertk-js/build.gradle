@@ -11,6 +11,7 @@ buildscript {
 dependencies {
     expectedBy project(":assertk-common")
     compile "org.jetbrains.kotlin:kotlin-stdlib-js"
+    compile 'com.willowtreeapps.opentest4k:opentest4k-js:1.1.0'
     testCompile "org.jetbrains.kotlin:kotlin-test-js"
 }
 

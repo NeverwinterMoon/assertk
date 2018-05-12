@@ -22,7 +22,7 @@ repositories {
 dependencies {
     expectedBy project(":assertk-common")
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation "org.opentest4j:opentest4j:1.1.0"
+    implementation 'com.willowtreeapps.opentest4k:opentest4k-jdk:1.1.0'
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit"
     testImplementation "org.jetbrains.kotlin:kotlin-test"
 

@@ -1,7 +1,7 @@
 package assertk
 
-import assertk.internal.AssertionFailedError
-import assertk.internal.MultipleFailuresError
+import com.willowtreeapps.opentest4k.AssertionFailedError
+import com.willowtreeapps.opentest4k.MultipleFailuresError
 
 /**
  * Assertions are run in a failure context which captures failures to report them.

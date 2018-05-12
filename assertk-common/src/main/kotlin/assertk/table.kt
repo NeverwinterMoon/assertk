@@ -1,7 +1,7 @@
 package assertk
 
 import assertk.assertions.support.show
-import assertk.internal.MultipleFailuresError
+import com.willowtreeapps.opentest4k.MultipleFailuresError
 
 private class TableFailure(private val table: Table) : Failure {
     private val failures: MutableMap<Int, MutableList<AssertionError>> = LinkedHashMap()
